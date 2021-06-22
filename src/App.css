@@ -1,0 +1,48 @@
+body{
+  background-color: rgba(19, 19, 19, 0.836);
+}
+
+.bg{
+  background-color: #1A1A1A;
+}
+
+.section-about h2{
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 60px;
+  padding-top: 60px;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.about{
+  color: white;
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.skill-item{
+  box-sizing: inherit;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  width: 100px;
+  padding: 35px;
+  background-color: #424242;
+  border-radius: 5px;
+}
+
+.skill-item p{
+  font-size: 20px;
+  margin: 0;
+}
